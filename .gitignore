@@ -1,0 +1,16 @@
+# dependencies & build output
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+
+# SECRETS — real values never enter git; the template stays.
+.env
+.env.*
+!.env.example
+
+# noise
+*.log
+.DS_Store
+Thumbs.db
